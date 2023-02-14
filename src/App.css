@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 1vw;
+  height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.label {
+  font-size: 90%
+}
+.legend_recipe{
+  width: 20px;
+  height: 20px;
+  margin: 3px 5px;
+  cursor: pointer;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.legend_steps {
+  width: 20px;
+  height: 20px;
+  margin: 3px 5px;
+  cursor: pointer;
+  border-radius: 50%; 
+ 
+ 
+  /* border-radius: 50%; */
+}
+.im{
+  padding-bottom: 100px;
+}
+.legend_activity{
+  width: 30px;
+  height: 20px;
+  margin: 3px 5px;
+  cursor: pointer;
+  border-radius: 50%; 
+}
+.legend_parameter{
+  width: 30px;
+  height: 20px;
+  margin: 3px 5px;
+  cursor: pointer;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.recipe-color {
+  background-color: #f298a1;
 }
 
-.App-link {
-  color: #61dafb;
+.step-color {
+  background-color: rgb(188 191 238);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.activity-color {
+  background-color: rgb(148 233 170);
 }
+
+.parameter-color {
+  background-color: #ffdb6f;
+}
+.form-select{
+  cursor: pointer;
+
+}
+
+.App{
+  overflow-x: hidden;
+ 
+}
+
+
+
+
+
+
+
+

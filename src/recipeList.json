@@ -1,0 +1,21 @@
+{
+    "status": "success",
+    "data":{
+        "recipeList": [
+            {
+                "label": "Fluxamab Demo SR",
+                "value": "recipe_1"
+            },
+            {
+                "label": "Recipe 2",
+                "value": "recipe_2"
+            },
+            {
+                "label": "Recipe 3",
+                "value": "recipe_3"
+            }
+
+        ]
+    },
+    "message": "error while executing the query"   
+}
